@@ -6,20 +6,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
-}
-
-h1 {
-  text-align: center;
-  font-family: "Megrim", cursive;
-  font-size: 10vw;
-}
-
-h2 {
-  text-align: center;
-  font-family: "Megrim", cursive;
-  font-size: 2vw;
-  color: white;
+  height: 90vh;
 }
 
 #logoRed {
@@ -32,4 +19,28 @@ h2 {
 
 #logoGreen {
   color: #4de93f;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Megrim", cursive;
+  font-size: 10vw;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Megrim", cursive;
+  font-size: 2vw;
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 15vw;
+  }
+
+  h2 {
+    font-size: 5vw;
+  }
 }
